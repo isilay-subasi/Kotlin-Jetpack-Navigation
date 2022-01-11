@@ -69,6 +69,11 @@ my_navigation.xml adında bir dosya hazırlıyoruz.
 
 
 
+<h2>Veri Aktarımı</h2>
+
+Navigasyon'a gelerek istediğimiz fragmente tıklıyoruz ve aşağıdaki gibi arguments yazan yerde yeni bir argüman ekliyoruz.
+![arguments](https://github.com/isilay-subasi/Kotlin-Jetpack-Navigation/blob/main/images/arguments.PNG)
+
 
 
 
