@@ -55,6 +55,11 @@ my_navigation.xml adında bir dosya hazırlıyoruz.
 
 ![dependencies](https://github.com/isilay-subasi/Kotlin-Jetpack-Navigation/blob/main/images/dependencies.PNG)
 
++ build.gradle(:app) kısmınada aşağıdaki gibi plugin vermeliyiz.
+
+![dependencies](https://github.com/isilay-subasi/Kotlin-Jetpack-Navigation/blob/main/images/plugins.PNG)
+
+
 
 
 
