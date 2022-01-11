@@ -29,7 +29,12 @@ class FirstFragment : Fragment() {
 
         firstFragmentButton.setOnClickListener {
             //action , it->View!
-            val action = FirstFragmentDirections.actionFirstFragmentToSecondFragment()
+            // val action = FirstFragmentDirections.actionFirstFragmentToSecondFragment()
+            //veri aktarımı
+            val action =FirstFragmentDirections.actionFirstFragmentToSecondFragment(40)
+
+
+
             Navigation.findNavController(it).navigate(action)
 
         }
