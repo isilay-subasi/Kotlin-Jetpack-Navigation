@@ -3,12 +3,34 @@
 
 <layout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools">
-<FrameLayout
+<androidx.appcompat.widget.LinearLayoutCompat
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context=".SecondFragment">
 
+    <TextView
+        android:id="@+id/secondFragmentText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textStyle="italic"
+        android:layout_marginTop="50dp"
+        android:text="Second Fragment"
+        android:textSize="24sp">
 
+    </TextView>
 
-</FrameLayout>
+    <Button
+        android:id="@+id/secondFragmentButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="To Firs Fragment"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        >
+
+    </Button>
+
+</androidx.appcompat.widget.LinearLayoutCompat>
 </layout>
