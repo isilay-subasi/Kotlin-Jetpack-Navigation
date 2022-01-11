@@ -61,9 +61,9 @@ my_navigation.xml adında bir dosya hazırlıyoruz.
 
 + Bu eklemeleri yaptıktan sonra "Rebuild Project" yapmalıyız.
 
-+ dataBinding{} özelliğini aktif etmemiz gerekir. buil.gradle(:app) kısmına artık olarak aşağıdaki gibi eklememizi yapmamız gerekmektedir.
++ dataBinding{} özelliğini aktif etmemiz gerekir. buil.gradle(:app) kısmına artı olarak aşağıdaki gibi eklememizi yapmamız gerekmektedir.
 
-
+![databinding](https://github.com/isilay-subasi/Kotlin-Jetpack-Navigation/blob/main/images/databindig.PNG)
 
 
 
