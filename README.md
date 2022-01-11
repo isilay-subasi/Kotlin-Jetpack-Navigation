@@ -20,6 +20,26 @@ Farklı farklı kütüphaneler,araçlar ve framewoklere sahip topluluk.Yüksek k
 + Data Binding -> UI ile verimizi nasıl daha iyi bağlayacağımızı
 
 
+<h2>Jetpack Navigation</h2>
+
+Fragmentler arası geçişlerde activiteler arası geçişlerde daha kolay şekilde yapmamızı sağlayan yapıdır.Bir kütüphane gibi düşünebiliriz.
+Bir örnek projeyle bu konuyu daha iyi öğrenelim.
+Empty project oluşturuyoruz.
+
++ 2 tana fragment oluşturuyoruz.(Blank)
++ 2 fragment ve 1 activiteden oluşan bir projemiz oluştu.
++ fragment_first.xml kısmında layout tagleri arasına FrameLayout taglerini koyuyorum.
+layout -> İçerisindeki FrameLayout navigasyonun bir parçası olduğunu söylüyor.
++ Ama ilk başta dependencies olarak eklemem gereken ilgili kodları ekliyorum.
+Module:app -> dependencies -> 
+  def nav_version = "2.4.0-rc01"
+  implementation("androidx.navigation:navigation-fragment-ktx:$nav_version")
+  implementation("androidx.navigation:navigation-ui-ktx:$nav_version")
++ FrameLayout icindeki ilk iki satir "xmlns" -> namespacedir.
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+Bu namespacelerin ilk tagin içerisinde olması gerekir. Onun için layout tagleri arasına alıyoruz.
+
 
 
 
