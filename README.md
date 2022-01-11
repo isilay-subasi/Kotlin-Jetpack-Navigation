@@ -45,6 +45,15 @@ res -> new -> Android Resource File -> Resource Type -> navigation seçiyoruz.
 my_navigation.xml adında bir dosya hazırlıyoruz.
 
 ![action](https://github.com/isilay-subasi/Kotlin-Jetpack-Navigation/blob/main/images/action.PNG)
+
++ Activitemizle navigasyonda yaptıklarımızı bağlamam gerekiyor.
++ activity_main geliyorum. Ve <b>navHostFragment<b> viewini seçiyorum.Oluşturduğum grafiği burda host etmek için, burda barındırmak için kullandığımız görünüm elemanıdır.
+
+![navHostFragment](https://github.com/isilay-subasi/Kotlin-Jetpack-Navigation/blob/main/images/navigasyon.PNG)
+
+
+
+
   
 
 
