@@ -65,6 +65,8 @@ my_navigation.xml adında bir dosya hazırlıyoruz.
 
 ![databinding](https://github.com/isilay-subasi/Kotlin-Jetpack-Navigation/blob/main/images/databindig.PNG)
 
++ Pluginlere id "kotlin-kapt" eklendiğine emin olmamız gerekemektedir.
+
 
 
 
