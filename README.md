@@ -50,6 +50,12 @@ my_navigation.xml adında bir dosya hazırlıyoruz.
 + activity_main geliyorum. Ve <b>navHostFragment<b> viewini seçiyorum.Oluşturduğum grafiği burda host etmek için, burda barındırmak için kullandığımız görünüm elemanıdır.
 
 ![navHostFragment](https://github.com/isilay-subasi/Kotlin-Jetpack-Navigation/blob/main/images/navigasyon.PNG)
+ 
++ Navigasyon özelliğini kullanmak için build.gradle(Project:) kısmına aşağıdaki gibi eklemeleri yapmalıyız.
+
+![dependencies](https://github.com/isilay-subasi/Kotlin-Jetpack-Navigation/blob/main/images/dependencies.PNG)
+
+
 
 
 
