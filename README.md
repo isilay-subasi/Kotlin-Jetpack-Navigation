@@ -43,6 +43,8 @@ Bu namespacelerin ilk tagin içerisinde olması gerekir. Onun için layout tagle
 + Navigasyon Grafiği -> Fragmentlerin ve aktivitlerin nasıl birbirine bağlayacağımızı belirteceğimiz grafik.
 res -> new -> Android Resource File -> Resource Type -> navigation seçiyoruz.
 my_navigation.xml adında bir dosya hazırlıyoruz.
+
+![action](https://github.com/isilay-subasi/Kotlin-Jetpack-Navigation/blob/main/images/action.PNG)
   
 
 
